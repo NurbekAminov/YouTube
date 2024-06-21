@@ -1,12 +1,12 @@
 ### Create profile
 POST http://localhost:8080/api/v1/profile/admin/create
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2OTMwNzg3NDksImVtYWlsIjoibnVyYmVrYW1pbm92MTNAZ21haWwuY29tIiwiZXhwIjoxNjkzOTQyNzQ5LCJpc3MiOiJZT1VUVUJFIFBPUlRBTCJ9.l3ZWDSZ-zY1OBDDJKdhM3DlSlv1fwSn-f593SeViBVYYpwoqm7xuO3VzjyNXgH7F_d7K4FaIUXtEn51LLS1S4w
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MTQyMzcxNjQsImVtYWlsIjoibnVyYmVrYW1pbm92MTNAZ21haWwuY29tIiwiZXhwIjoxNzE1MTAxMTY0LCJpc3MiOiJZT1VUVUJFIFBPUlRBTCJ9.-KvEF2K6bZ9yedd-vBg4Gw2XlIQcJ3jw-xFxvLT73thiflwNNhjJtr6JR4QX3KKzEukNFkPjeVfc5XJZfJ986A
 
 {
   "name": "Vlai",
   "surname": "Valiyev",
-  "email": "Vali123@gmail.com",
+  "email": "Vali123",
   "password": "12345678"
 }
 

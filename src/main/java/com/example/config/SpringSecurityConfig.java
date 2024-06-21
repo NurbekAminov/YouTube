@@ -21,6 +21,8 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 public class SpringSecurityConfig {
     @Autowired
     private JwtTokenFilter jwtTokenFilter;
+    @Autowired
+    private UserDetailsService userDetailsService;
 
     public static String [] AUTH_WHITELIST = {
             "/api/v1/auth/**",
@@ -63,8 +65,6 @@ public class SpringSecurityConfig {
         return authenticationProvider;
     }*/
 
-    @Autowired
-    private UserDetailsService userDetailsService;
 
     @Bean
     public AuthenticationProvider authenticationProvider() {
